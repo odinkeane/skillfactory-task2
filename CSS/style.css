@@ -20,7 +20,7 @@
     --aside-card-color: rgb(230, 240, 253);
     --aside-border-color: rgb(222, 222, 222);
     --aside-psycho-info: rgba(243, 244, 248, 0.7);
-    --aside-psycho-data: rgb(162, 167, 177)
+    --aside-psycho-data: rgb(162, 167, 177);
     /* Размеры шрифта */
     /* Отступы */
     --small-gap-size: 4px;
@@ -326,6 +326,20 @@ footer section:last-child {
     display: grid;
     gap: var(--article-gap);
     margin: var(--article-gap) 0px;
+}
+
+.main__small-articles__article,
+.main__big-articles__article,
+.main__filter__element {
+    transition: 0.5s;
+}
+
+.main__small-articles__article:hover,
+.main__big-articles__article:hover,
+.main__filter__element:hover {
+    box-shadow: 0px 0px 10px var(--primary-color);
+    border-radius: var(--border-radius-size);
+    cursor: pointer;
 }
 
 .main__big-articles {
