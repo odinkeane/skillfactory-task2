@@ -1,0 +1,28 @@
+.main__article__content__photo-with-text,
+.main__article__content__two-cards figure {
+    display: grid;
+    gap: var(--big-gap-size);
+    grid-template-columns: 1fr;
+}
+
+.main__article__content__photo-with-text img,
+.main__article__content__two-cards figure img {
+    display: block !important;
+    width: 100% !important;
+    height: unset;
+    object-fit: cover;
+    max-width: unset;
+}
+
+.main__aside {
+    grid-template-columns: 1fr;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.main__article__image {
+    height: unset;
+}

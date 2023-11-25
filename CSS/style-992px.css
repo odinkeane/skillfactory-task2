@@ -1,0 +1,59 @@
+/* Header changes */
+
+.header__menu__btn {
+    display: block;
+}
+
+.header__menu ul,
+.header__btn,
+.main__shape,
+.main__article__end,
+.main__solve-problem,
+.main__filter__after-end {
+    display: none;
+}
+
+header {
+    justify-content: space-between !important;
+}
+
+.header__menu {
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+
+/* Footer changes */
+
+.footer__social-media {
+    padding-top: 26px;
+}
+
+
+/* main changes */
+
+.main__info {
+    grid-template-columns: 100%;
+}
+
+.main__article,
+.main__aside {
+    width: min(728px, 100%);
+    justify-self: center;
+}
+
+.main__aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 32px;
+}
+
+.main__aside__image {
+    padding: 60px 24px;
+    margin: 0px 0px 60px;
+}
+
+.main__aside__card-info {
+    margin: 0px 0px 60px;
+    padding-bottom: 4px;
+}

@@ -1,0 +1,38 @@
+header,
+main,
+footer {
+    padding: 0px min(20px, max(calc(100vw / 23.5 - 56px / 23.5), 16px));
+}
+
+.footer__info ul {
+    column-gap: calc(100vw / 1.21 - 260px / 1.21);
+}
+
+.footer__feedback form,
+.footer__feedback {
+    width: 100%;
+}
+
+.footer__feedback__send-email:focus+.footer__feedback__button {
+    left: calc(100% - 64px);
+}
+
+.footer__feedback__button {
+    left: 425px;
+}
+
+.footer__social-media {
+    align-self: start;
+}
+
+.main__big-articles__article__info__hide,
+.main__small-articles__article_hide {
+    display: none;
+}
+
+@media screen and (max-width: 376px) {
+    h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
